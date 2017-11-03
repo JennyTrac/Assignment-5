@@ -1,0 +1,296 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {540, 540}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 14,
+          "text" : "Cards values range from 1-10. The dealer is dealt 3 cards and you are dealt 2.",
+          "font_name" : "<System>",
+          "name" : "instruction1_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "AF3DDB1D-53D2-493F-A7F4-433F31336C4F"
+        },
+        "frame" : "{{14, 18}, {514, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 14,
+          "text" : "The goal is to get as close to the value of 21 without going over.",
+          "font_name" : "<System>",
+          "name" : "instruction2_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "AF3DDB1D-53D2-493F-A7F4-433F31336C4F"
+        },
+        "frame" : "{{14, 58}, {514, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 14,
+          "text" : "If you would like another card, click “Add Card”.",
+          "font_name" : "<System>",
+          "name" : "instruction3_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "AF3DDB1D-53D2-493F-A7F4-433F31336C4F"
+        },
+        "frame" : "{{14, 98}, {514, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 14,
+          "text" : "If you are happy with your cards, click “Check”.",
+          "font_name" : "<System>",
+          "name" : "instruction4_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "AF3DDB1D-53D2-493F-A7F4-433F31336C4F"
+        },
+        "frame" : "{{14, 138}, {514, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 14,
+          "text" : "Your Cards:",
+          "font_name" : "<System>",
+          "name" : "yourcards_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "D4A18B1F-821F-4AC2-A0F7-A1D684E5660E"
+        },
+        "frame" : "{{14, 178}, {240, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 14,
+          "text" : "The Dealer's Cards:",
+          "font_name" : "<System>",
+          "name" : "dealercards_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "D4A18B1F-821F-4AC2-A0F7-A1D684E5660E"
+        },
+        "frame" : "{{288, 178}, {240, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "40ABC436-0C2A-40AC-9F29-A6254B390199",
+          "name" : "addcard_button",
+          "action" : "add_card_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Add Card"
+        },
+        "frame" : "{{174, 366}, {80, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "0FDA4583-FFD0-4408-8BFB-15B83204CF44",
+          "name" : "check_button",
+          "action" : "check_card_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Check"
+        },
+        "frame" : "{{288, 366}, {80, 32}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 14,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "usertotal_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "742A0BEA-08F2-4836-B6AF-C9B90FB687A6"
+        },
+        "frame" : "{{14, 326}, {240, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 14,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "dealertotal_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "F9A3ADDC-35B4-4726-ABC1-535E7DB6B09C"
+        },
+        "frame" : "{{288, 326}, {240, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 14,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "result_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "65E4FE2C-636A-451B-9E44-1857BA2E8D8F"
+        },
+        "frame" : "{{14, 406}, {514, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "usercard1_imageview",
+          "uuid" : "FD2F8DA8-AA67-411D-B7D1-03B5DF3CC70F",
+          "frame" : "{{220, 220}, {100, 100}}"
+        },
+        "frame" : "{{14, 218}, {75, 100}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "usercard2_imageview",
+          "uuid" : "FD2F8DA8-AA67-411D-B7D1-03B5DF3CC70F",
+          "frame" : "{{220, 220}, {100, 100}}"
+        },
+        "frame" : "{{97, 218}, {75, 100}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "usercard3_imageview",
+          "uuid" : "FD2F8DA8-AA67-411D-B7D1-03B5DF3CC70F",
+          "frame" : "{{220, 220}, {100, 100}}"
+        },
+        "frame" : "{{179, 218}, {75, 100}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "dealercard1_imageview",
+          "uuid" : "FD2F8DA8-AA67-411D-B7D1-03B5DF3CC70F",
+          "frame" : "{{220, 220}, {100, 100}}"
+        },
+        "frame" : "{{288, 218}, {75, 100}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "dealercard2_imageview",
+          "uuid" : "FD2F8DA8-AA67-411D-B7D1-03B5DF3CC70F",
+          "frame" : "{{220, 220}, {100, 100}}"
+        },
+        "frame" : "{{371, 218}, {75, 100}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "dealercard3_imageview",
+          "uuid" : "FD2F8DA8-AA67-411D-B7D1-03B5DF3CC70F",
+          "frame" : "{{220, 220}, {100, 100}}"
+        },
+        "frame" : "{{453, 218}, {75, 100}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
